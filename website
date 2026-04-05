@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Luqks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d0d0d;
+      color: white;
+    }
+
+    header {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4') center/cover;
+    }
+
+    header h1 {
+      font-size: 4rem;
+      letter-spacing: 4px;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .gallery img {
+      width: 100%;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #111;
+    }
+
+    a {
+      color: #aaa;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div>
+    <h1>LUQKS</h1>
+    <p>Artist • Creator • Vision</p>
+  </div>
+</header>
+
+<section>
+  <h2>About</h2>
+  <p>
+    Luqks is an artist exploring sound, visuals, and emotion.
+    This space showcases creative work and latest releases.
+  </p>
+</section>
+
+<section>
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f">
+    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+  </div>
+</section>
+
+<section>
+  <h2>Connect</h2>
+  <p>
+    Follow on 
+    <a href="#">Instagram</a> |
+    <a href="#">Spotify</a> |
+    <a href="#">SoundCloud</a>
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Luqks</p>
+</footer>
+
+</body>
+</html>
